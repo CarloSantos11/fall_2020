@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+}
+div {
+  background-color: aquamarine;
+}
+
+.middle-container, .bottom-container {
+  height: 200px;
+  width: 200px;
+}
+
+.middle-container {
+  background-color: red;
+}
+
+ .bottom-container {
+  background-color: blue;
+ }
