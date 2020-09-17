@@ -1,26 +1,59 @@
 body {
   margin: 0;
   text-align: center;
+  font-family: 'Fira Code', monospace;
 }
 .top-container {
-  background-color: rgb(150, 157, 199);
+  background-color: #88b8c7;
+  padding-top: 100px;
+  z-index: -2;
+  position: relative;
+  height: auto;
+  overflow: auto;
 }
+
 h1 {
   margin:  0;
-
+  font-family: 'Montserrat Alternates';
+  font-size: 60px;
+  color: rgb(58, 56, 75);
 }
 
-.middle-container, .bottom-container {
-  height: 200px;
-  width: 200px;
+.by-line {
+  font-size: 25px;
+}
+
+.code {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 40%;
+  bottom: -45px; 
+  opacity: 0.2;
+}
+.mountain {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  bottom: -5px;
 }
 
 .middle-container {
-  background-color: red;
+
+}
+
+#profile-img {
+  margin-top: 50px;
+  border-radius: 50%;
+}
+
+#computer-img {
+  border-radius:  50%;
 }
 
 .bottom-container {
-background-color: blue;
+
 }
 
 .pro {
@@ -28,12 +61,13 @@ background-color: blue;
 }
 
 .top-cloud {
-  position: relative;
-  left: 200px;
-  top: 50px;
+  position: absolute;
+  top: 80px;
+  z-index: -1;
 }
 
 .bottom-cloud {
   position: absolute;
-  top: 200px;
+  left: 350px;
+  top: 280px;
 }
