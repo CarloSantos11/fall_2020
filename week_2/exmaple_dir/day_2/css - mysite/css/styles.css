@@ -1,8 +1,13 @@
-* {
+body {
   margin: 0;
+  text-align: center;
 }
-div {
-  background-color: aquamarine;
+.top-container {
+  background-color: rgb(150, 157, 199);
+}
+h1 {
+  margin:  0;
+
 }
 
 .middle-container, .bottom-container {
@@ -14,6 +19,21 @@ div {
   background-color: red;
 }
 
- .bottom-container {
-  background-color: blue;
- }
+.bottom-container {
+background-color: blue;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: relative;
+  left: 200px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 200px;
+}
