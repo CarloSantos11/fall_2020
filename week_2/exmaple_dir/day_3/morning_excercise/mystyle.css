@@ -1,0 +1,30 @@
+.red-box {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+}
+
+.blue-box {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+}
+
+.yellow-rectangle {
+  height: 300px;
+  width: 600px;
+  background-color: yellow;
+}
+
+.green-circle {
+  height: 300px;
+  width: 300px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.position-this
+{
+  position: absolute;
+  top: 200px;
+}
