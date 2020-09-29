@@ -10,6 +10,7 @@ body {
   position: relative;
   height: auto;
   overflow: auto;
+  line-height: 2;
 }
 
 h1 {
@@ -19,9 +20,14 @@ h1 {
   color: rgb(58, 56, 75);
 }
 
+h2,h3 {
+  color: rgb(44, 44, 90);
+  font-weight: bolder;
+}
 .by-line {
   font-size: 1.56rem;
   margin: 0 auto;
+  font-weight: normal;
 }
 
 .code {
@@ -37,11 +43,15 @@ h1 {
   position: relative;
   z-index: 1;
   margin: 0 auto;
-  bottom: -5px;
+  bottom: -11px;
 }
 
 .middle-container {
 
+}
+.profile {
+  width: 30%;
+  margin: auto;
 }
 
 #profile-img {
@@ -71,4 +81,45 @@ h1 {
   position: absolute;
   left: 350px;
   top: 280px;
+}
+
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skills-pic {
+  width: 30%;
+  margin: 30px;
+}
+
+#meditate-img {
+  float: left;
+}
+
+#computer-img {
+  float: right;
+}
+
+.clear-right {
+  clear: both;
+}
+
+hr {
+  border: none;
+  border-top: 8px dotted gray;
+  width: 8%;
+  height: 0;
+  margin: 50px auto;
+}
+
+.skills h2 {
+  margin-bottom: 0px;
+}
+
+.row-one {
+  margin-top: 100px;
 }
