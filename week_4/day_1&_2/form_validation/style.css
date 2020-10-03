@@ -11,7 +11,7 @@
 
 body {
   background-color: #f9fafb;
-  background: linear-gradient(0.85turn,#ff1100, #7a0c01,#6e1212, hsl(0, 100%, 23%));
+  background: linear-gradient(0.85turn,#ff1100, #7a0c01,#6e1212, hsl(0, 76%, 42%));
   font-family: 'Open Sans', sans-serif;
   display: flex;
   align-items: center;

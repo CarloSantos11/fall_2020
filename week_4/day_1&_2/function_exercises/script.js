@@ -60,3 +60,24 @@
 // numbers which are multiples of both three and five print 
 // “FizzBuzz"
 // **************************************************** //
+
+
+function doFizzBuzz(countUpTo) {
+  var counter = 0;
+
+  while(counter <= countUpTo) {
+    if(counter % 3 == 0 && counter % 5 == 0) {
+      console.log("FizzBuzz");
+    } else if (counter % 3 == 0) {
+      console.log("Fizz")
+    } else if (counter % 5 == 0) {
+      console.log("Buzz")
+    } else {
+      console.log(counter);
+    }
+    counter = counter + 1;
+  }
+}
+
+
+doFizzBuzz(33);
